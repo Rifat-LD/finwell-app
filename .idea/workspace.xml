@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="96cb35e8-9969-4b35-9578-98c8791c481a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/userController.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +31,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Rifat-LD/finwell-app.git&quot;,
-    &quot;accountId&quot;: &quot;7f53eb55-6009-40bb-a388-4287aaaec054&quot;
+    &quot;accountId&quot;: &quot;0d5dff27-ab72-41e2-a373-2b5939764d2c&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -66,7 +65,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-WS-251.27812.50" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-PY-251.26927.90" />
+        <option value="bundled-python-sdk-41e8cd69c857-64d779b69b7a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26927.90" />
       </set>
     </attachedChunks>
   </component>
@@ -79,6 +79,7 @@
       <updated>1757776869262</updated>
       <workItem from="1757776870221" duration="5857000" />
       <workItem from="1757837990902" duration="1566000" />
+      <workItem from="1757840374799" duration="8000" />
     </task>
     <servers />
   </component>
