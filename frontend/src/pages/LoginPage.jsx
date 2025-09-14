@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import AuthLayout from '../components/AuthLayout';
 import { useNavigate } from 'react-router-dom';
-import axios from 'axios'; // Import axios
+import axios from 'axios';
+import {useAuth} from "../context/AuthContext.jsx"; // Import axios
 
 const LoginPage = () => {
+    const {login} = useAuth();
     const navigate = useNavigate();
 
     // State for the form inputs
@@ -26,15 +28,11 @@ const LoginPage = () => {
                 password,
             });
 
-            // On success, the backend sends back user data and a token
-            console.log('Login successful:', response.data);
+            // Use the login function from our context
+            login(response.data);
 
-            // TODO in a future step:
-            // 1. Save the token (response.data.token) to local storage
-            // 2. Save user data to a global state (Context or Redux)
-            // 3. Redirect to the dashboard
-            alert('Login successful! Check the console for your data.');
-            // navigate('/dashboard'); // We will enable this later
+            // Navigate to the dashboard on successful login
+            navigate('/dashboard');
 
         } catch (err) {
             // If the API call fails, the backend sends an error message
@@ -84,7 +82,7 @@ const LoginPage = () => {
     };
 
     return (
-        <AuthLayout>
+        <AuthLayout containerStyle={{paddingTop: '0vh'}}>
             <form onSubmit={handleLogin} style={{ width: '400px', textAlign: 'center', margin: '4.1rem 0 0 0' }}>
                 <input
                     type="email"
