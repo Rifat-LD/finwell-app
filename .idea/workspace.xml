@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96cb35e8-9969-4b35-9578-98c8791c481a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/controllers/billController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/billRoutes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/features/dashboard/UpcomingBillsCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/node_modules/.vite/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/node_modules/.vite/deps/_metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/MainLayout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/MainLayout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/DashboardPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/DashboardPage.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="96cb35e8-9969-4b35-9578-98c8791c481a" name="Changes" comment="feat: build expense overview card with chart and summary" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,7 +80,7 @@
       <workItem from="1757840374799" duration="8000" />
       <workItem from="1758393616007" duration="4923000" />
       <workItem from="1758402682562" duration="9265000" />
-      <workItem from="1758436494513" duration="748000" />
+      <workItem from="1758436494513" duration="1035000" />
     </task>
     <servers />
   </component>
