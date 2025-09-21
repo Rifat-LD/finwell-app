@@ -1,6 +1,7 @@
 import React from 'react';
 import { useAuth } from '../context/AuthContext';
 import { useNavigate, Outlet } from 'react-router-dom';
+import logo from '../assets/Logo.png';
 
 const MainLayout = () => {
     const { user, logout } = useAuth();
@@ -44,7 +45,9 @@ const MainLayout = () => {
     return (
         <div style={layoutStyle}>
             <nav style={sidebarStyle}>
-                <h2 style={{color: '#ADFF2F', textAlign: 'center'}}>FinWell</h2>
+                <div style={{ textAlign: 'center', padding: '1rem 0' }}>
+                    <img src={logo} alt="FinWell Logo" style={{ width: '250px' }} />
+                </div>
                 <div style={{marginTop: '2rem', display: 'flex', flexDirection: 'column'}}>
                     <a href="#" style={{...navLinkStyle, backgroundColor: '#ADFF2F', color: 'black'}}>Dashboard</a>
                     <a href="#" style={navLinkStyle}>Files</a>

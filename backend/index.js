@@ -3,6 +3,10 @@ const express = require('express');
 const dotenv = require('dotenv');
 const cors = require('cors');
 const supabase = require('./config/supabaseClient');
+const accountRoutes = require('./routes/accountRoutes');
+const goalRoutes = require('./routes/goalRoutes');
+const billRoutes = require('./routes/billRoutes');
+const transactionRoutes = require('./routes/transactionRoutes');
 
 // Load environment variables from .env file
 dotenv.config();
@@ -18,6 +22,10 @@ const PORT = process.env.PORT || 5000;
 app.use(cors()); // Enable Cross-Origin Resource Sharing
 app.use(express.json()); // Enable the express app to parse JSON formatted request bodies
 app.use('/api/users', userRoutes);
+app.use('/api/accounts', accountRoutes);
+app.use('/api/goals', goalRoutes);
+app.use('/api/bills', billRoutes);
+app.use('/api/transactions', transactionRoutes);
 
 // A simple test route to check if the server and supabase connection are working
 app.get('/', async (req, res) => {
